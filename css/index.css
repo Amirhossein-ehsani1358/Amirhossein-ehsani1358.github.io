@@ -932,6 +932,21 @@ body {
         line-height: 30px;
         font-size: 24px;
     }
+    /* start to create container-fluid[12]*****************************************************************************************************/
+    .container-12{
+        height: 1010px;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .parent-paragraph-container12{
+        height: auto;
+        padding: 0px 30px;
+    }
+    
+    .first-paragraph-container12{
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
 }
 
 
