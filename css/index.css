@@ -1,0 +1,4164 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    height: 5000px;
+}
+
+@media all and (max-width:767px) {
+
+    /* start to create navigation for small size************************************************************************************************/
+    nav {
+        height: 40px;
+        z-index: 2;
+    }
+
+    .first-ul {
+        height: 40px;
+        list-style-type: none;
+        background-color: rgb(25, 25, 25);
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-content: flex-start;
+        transition: all 400ms ease 0s;
+    }
+
+    .first-ul-opening {
+        height: 100vh;
+    }
+
+    .first-li {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .first-links {
+        color: rgb(170, 170, 170);
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 600;
+        transition: all 400ms ease 0s;
+    }
+
+    .apple-icon {
+        position: fixed;
+        top: 0;
+        left: 0;
+        line-height: 40px;
+        font-size: 20px;
+        height: 40px;
+        padding: 0px 10px;
+        color: rgb(205, 205, 205);
+        cursor: pointer;
+        transition: all 400ms ease 0s !important;
+        margin-left: 5px;
+    }
+
+    .apple-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .search-icon {
+        position: fixed;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: rgb(205, 205, 205);
+        top: 0;
+        right: 86px;
+        transition: all 400ms ease 0s !important;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+
+    .fade {
+        opacity: 0;
+        cursor: auto !important;
+    }
+
+    .search-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bag-icon {
+        position: fixed;
+        top: 0;
+        right: 40px;
+        color: rgb(205, 205, 205);
+        height: 40px;
+        padding: 0px 10px;
+        line-height: 40px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 500ms ease 0s !important;
+    }
+
+    .bag-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .parent-line {
+        width: 20px;
+        height: 40px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .line1 {
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        background-color: rgb(100, 100, 100);
+        top: 16px;
+        transition: all 400ms ease 0s;
+    }
+
+    .line1-rotate {
+        position: absolute;
+        top: 14px;
+        transform-origin: left;
+        transform: rotate(45deg);
+    }
+
+    .line2 {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(100, 100, 100);
+        top: 25px;
+        transition: all 400ms ease 0s;
+    }
+
+    .line2-rotate {
+        position: absolute;
+        top: 28px;
+        transform-origin: left;
+        transform: rotate(-45deg);
+    }
+
+    .lines-color {
+        color: rgb(200, 200, 200);
+    }
+
+    .right1 {
+        position: absolute;
+        display: none;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: rgb(210, 210, 210);
+        right: 20px;
+    }
+
+    .links-color {
+        color: rgb(240, 240, 240);
+    }
+
+    .fixing-top {
+        margin-top: 50px;
+    }
+
+    .display {
+        display: none;
+    }
+
+    /* start to create container-fluid3*********************************************************************************************************/
+    .container-fluid-3 {
+        height: 530px;
+        background-image: url(../images/image1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        cursor: pointer;
+    }
+
+    .parent-container3-h1 {
+        height: 35px;
+        margin-top: 65px;
+    }
+
+    .first-h1-container3 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-container3-h3 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container3 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container3 {
+        height: 30px;
+        display: flex;
+    }
+
+    .first-link-container3 {
+        margin-right: 30px;
+    }
+
+    .first-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 87%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .first-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container3,
+    .second-link-container3 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 72%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .second-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow1,
+    .right-arrow2 {
+        font-size: 12px;
+    }
+
+    /* start to create container-fluid[4]******************************************************************************************************/
+    .container-fluid4 {
+        height: 548px;
+        background-image: url("../images/image5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        cursor: pointer;
+    }
+
+    .parent-h1-container4 {
+        height: 40px;
+        margin-top: 60px;
+    }
+
+    .first-h1-container4 {
+        font-size: 32px;
+        font-weight: 600;
+        color: rgb(29, 29, 31);
+        font-family: sans-serif;
+    }
+
+    .parent-h3-container4 {
+        height: 25px;
+    }
+
+    .first-h3-container4 {
+        color: rgb(29, 29, 31);
+        font-size: 19px;
+    }
+
+    .parent-links-container4 {
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .first-link-container4,
+    .second-link-container4,
+    .right-arrow3,
+    .right-arrow4 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container4 {
+        margin-right: 20px;
+    }
+
+    .first-link-container4::after {
+        display: block;
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-h1-container4:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container4::after {
+        display: block;
+        content: "";
+        width: 65%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow3,
+    .right-arrow4 {
+        font-size: 12px !important;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[5]******************************************************************************************************/
+    .container-fluid5 {
+        width: 100%;
+        height: 548px;
+        background-image: url("../images/image9.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h2-container5 {
+        height: 45px;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .apple-icon-container5 {
+        display: block;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        line-height: 33px;
+    }
+
+    .first-h2-container5 {
+        color: rgb(245, 245, 247);
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .parent-h3-container5 {
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .first-h3-container5 {
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 15px;
+        color: red;
+    }
+
+    .parent-h1-container5 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h1-container5 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container5 {
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .first-link-container5,
+    .second-link-container5 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container5 {
+        margin-right: 20px;
+    }
+
+    .first-link-container5::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container5::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow5,
+    .right-arrow6 {
+        font-size: 12px !important;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[6]******************************************************************************************************/
+    .container-fluid6 {
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/image10.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container6 {
+        height: 40px;
+        margin-top: 50px;
+    }
+
+    .first-h1-container6 {
+        line-height: 40px;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h2-container6 {
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container6 {
+        line-height: 20px;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-family: 400;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container6 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container6,
+    .second-link-container6 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container6 {
+        margin-right: 20px;
+    }
+
+    .first-link-container6::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container6::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow7,
+    .right-arrow8 {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[7]******************************************************************************************************/
+    .container-7 {
+        width: 100%;
+        height: 500px;
+        background-image: url(../images/image13.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-alltext-h1-container7 {
+        height: 115px;
+        margin-top: 40px;
+    }
+
+    .first-h1-alltext-container7 {
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h2-container7 {
+        height: 50px;
+        margin-top: 3px;
+    }
+
+    .first-h2-container7 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container7 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container7,
+    .second-link-container7 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+        font-family: sans-serif;
+    }
+
+    .first-link-container7 {
+        margin-right: 20px;
+    }
+
+    .first-link-container7::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container7::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow-9,
+    .right-arrow-10 {
+        color: rgb(41, 151, 255);
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[8]******************************************************************************************************/
+    .container-8 {
+        height: 500px;
+        background-image: url("../images/image15.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h1-container8 {
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .first-h1-container8 {
+        line-height: 50px;
+        font-size: 32px;
+        color: rgb(10, 10, 10);
+        font-weight: 600;
+    }
+
+    .parent-h2-container8 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container8 {
+        font-size: 19px;
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-link-container8 {
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .first-link-container8 {
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container8::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container8:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow11 {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* start to create container-fluid[9,10]****************************************************************/
+    .container-9 {
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/image19.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-text-container9 {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container9 {
+        line-height: 50px;
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container9 {
+        display: block;
+        font-size: 28px;
+    }
+
+    .plus-icon-container9 {
+        display: block;
+        font-size: 40px;
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .parent-h2-container9 {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container9 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 25px;
+    }
+
+    .parent-links-container9 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container9,
+    .second-link-container9 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container9 {
+        margin-right: 25px;
+    }
+
+    .first-link-container9::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container9::after {
+        display: block;
+        content: "";
+        width: 79%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .arrow-up-container9,
+    .right-arrow-12 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow-12 {
+        margin-left: 3px;
+    }
+
+    .container-10 {
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/image20.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .parent-h1-container10 {
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container10 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .apple-icon-container10 {
+        display: block;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .parent-h2-container10 {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container10 {
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container10 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .right-arrow-13,
+    .right-arrow-14 {
+        font-size: 12px;
+        margin-left: 3px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container10 {
+        margin-right: 25px;
+    }
+
+    .first-link-container10,
+    .second-link-container10 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -4px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -4px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[11]**************************************************************************/
+    .container-11 {
+        height: 550px;
+    }
+
+    .parent-slider {
+        height: 500px;
+        background-color: gray;
+        margin-top: 15px;
+        background-position-x: 50%;
+    }
+
+    .image{
+        margin-right: 15px;
+        width: 274px;
+        background-position-x: 50%;
+    }
+
+    .image-10{
+        margin-left: -160px;
+    }
+
+    .parent-icons-container11 {
+        height: 30px;
+        background-color: gray;
+        margin-top: 5px;
+    }
+
+    .circle {
+        display: block;
+        line-height: 30px;
+        font-size: 13px;
+        color: rgb(250, 250, 250);
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .circle:hover {
+        color: rgb(200, 200, 200);
+    }
+
+    .play-button {
+        display: block;
+        position: absolute;
+        right: 20px;
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    .pause-button {
+        display: none;
+        position: absolute;
+        right: 20px;
+        line-height: 30px;
+        font-size: 24px;
+    }
+}
+
+
+@media all and (min-width:768px) and (max-width:991px) {
+
+    /* start to create navigation for small size************************************************************************************************/
+    nav {
+        height: 40px;
+        z-index: 2;
+    }
+
+    .first-ul {
+        height: 40px;
+        list-style-type: none;
+        background-color: rgb(25, 25, 25);
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        align-content: flex-start;
+        transition: all 400ms ease 0s;
+    }
+
+    .first-ul-opening {
+        height: 100vh;
+    }
+
+    .first-li {
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .first-links {
+        color: rgb(170, 170, 170);
+        font-size: 28px;
+        font-family: sans-serif;
+        font-weight: 600;
+        transition: all 400ms ease 0s;
+    }
+
+    .apple-icon {
+        position: fixed;
+        top: 0;
+        left: 0;
+        line-height: 40px;
+        font-size: 20px;
+        height: 40px;
+        padding: 0px 10px;
+        color: rgb(205, 205, 205);
+        cursor: pointer;
+        transition: all 400ms ease 0s !important;
+        margin-left: 5px;
+    }
+
+    .apple-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .search-icon {
+        position: fixed;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: rgb(205, 205, 205);
+        top: 0;
+        right: 86px;
+        transition: all 400ms ease 0s !important;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+
+    .fade {
+        opacity: 0;
+        cursor: auto !important;
+    }
+
+    .search-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bag-icon {
+        position: fixed;
+        top: 0;
+        right: 40px;
+        color: rgb(205, 205, 205);
+        height: 40px;
+        padding: 0px 10px;
+        line-height: 40px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 500ms ease 0s !important;
+    }
+
+    .bag-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .parent-line {
+        width: 20px;
+        height: 40px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .line1 {
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        background-color: rgb(100, 100, 100);
+        top: 16px;
+        transition: all 400ms ease 0s;
+    }
+
+    .line1-rotate {
+        position: absolute;
+        top: 14px;
+        transform-origin: left;
+        transform: rotate(45deg);
+    }
+
+    .line2 {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: rgb(100, 100, 100);
+        top: 25px;
+        transition: all 400ms ease 0s;
+    }
+
+    .line2-rotate {
+        position: absolute;
+        top: 28px;
+        transform-origin: left;
+        transform: rotate(-45deg);
+    }
+
+    .lines-color {
+        color: rgb(200, 200, 200);
+    }
+
+    .right1 {
+        position: absolute;
+        display: none;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: rgb(210, 210, 210);
+        right: 20px;
+    }
+
+    .links-color {
+        color: rgb(240, 240, 240);
+    }
+
+    .fixing-top {
+        margin-top: 50px;
+    }
+
+    .display {
+        display: none;
+    }
+
+    /* start to create container-fluid3*********************************************************************************************************/
+    .container-fluid-3 {
+        height: 617px;
+        background-image: url(../images/image2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .parent-container3-h1 {
+        height: 50px;
+        margin-top: 90px;
+    }
+
+    .first-h1-container3 {
+        font-size: 48px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-container3-h3 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container3 {
+        font-size: 24px;
+        color: rgb(245, 245, 247);
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container3 {
+        height: 30px;
+        display: flex;
+    }
+
+    .first-link-container3 {
+        margin-right: 30px;
+    }
+
+    .first-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 87%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .first-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container3,
+    .second-link-container3 {
+        font-size: 19px;
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 72%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .second-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow1,
+    .right-arrow2 {
+        font-size: 14px;
+    }
+
+    /* start to create container-fluid[4]******************************************************************************************************/
+    .container-fluid4 {
+        height: 617px;
+        background-image: url("../images/image6.jpg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+    }
+
+    .parent-h1-container4 {
+        height: 55px;
+        margin-top: 80px;
+    }
+
+    .first-h1-container4 {
+        font-size: 48px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h3-container4 {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-h3-container4 {
+        font-size: 24px;
+    }
+
+    .parent-links-container4 {
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .first-link-container4,
+    .second-link-container4 {
+        font-size: 19px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container4 {
+        margin-right: 33px;
+    }
+
+    .first-link-container4::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow3,
+    .right-arrow4 {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    /* start to create container-fluid[5]******************************************************************************************************/
+    .container-fluid5 {
+        width: 48%;
+        margin-right: 10px;
+    }
+
+    .container-fluid5 {
+        height: 538px;
+        background-image: url("../images/image9.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h2-container5 {
+        display: flex;
+        margin-top: 40px;
+        height: 40px;
+    }
+
+    .first-h2-container5 {
+        color: rgb(245, 245, 247);
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container5 {
+        display: block;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        line-height: 32px;
+    }
+
+    .parent-h3-container5 {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container5 {
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 15px;
+        color: red;
+        line-height: 20px;
+    }
+
+    .parent-h1-container5 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h1-container5 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container5 {
+        margin-top: 10px;
+        display: flex;
+        height: 30px;
+    }
+
+    .first-link-container5,
+    .second-link-container5 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow5,
+    .right-arrow6 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container5 {
+        margin-right: 25px;
+    }
+
+    .first-link-container5::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container5::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[6]******************************************************************************************************/
+    .container-fluid6 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image10.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container6 {
+        height: 45px;
+        margin-top: 35px;
+    }
+
+    .first-h1-container6 {
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .parent-h2-container6 {
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .first-h2-container6 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container6 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container6,
+    .second-link-container6 {
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+    }
+
+    .right-arrow7,
+    .right-arrow8 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container6 {
+        margin-right: 23px;
+    }
+
+    .first-link-container6::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container6::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[7] & container-fluid[8]*****************************************************/
+    .container-7 {
+        width: 48%;
+        height: 538px;
+        background-color: orange;
+        margin-right: 10px;
+        background-image: url("../images/image18.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-alltext-h1-container7 {
+        height: 115px;
+        margin-top: 40px;
+    }
+
+    .first-h1-alltext-container7 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-h2-container7 {
+        height: 47px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container7 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+    }
+
+    .parent-links-container7 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container7,
+    .second-link-container7 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .first-link-container7 {
+        margin-right: 30px;
+    }
+
+    .first-link-container7::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container7::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow-9,
+    .right-arrow-10 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+
+    .container-8 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image16.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container8 {
+        height: 40px;
+        margin-top: 37px;
+    }
+
+    .first-h1-container8 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(10, 10, 10);
+    }
+
+    .parent-h2-container8 {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container8 {
+        font-size: 19px;
+        color: rgb(10, 10, 10);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-link-container8 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container8 {
+        line-height: 30px;
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .right-arrow11 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container8::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+        margin-top: -9px;
+    }
+
+    .first-link-container8:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-flui[9,10]*************************************************************************/
+    .container-9 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image21.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 10px;
+    }
+
+    .container-10 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image22.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-text-container9 {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container9 {
+        line-height: 50px;
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container9 {
+        display: block;
+        font-size: 28px;
+    }
+
+    .plus-icon-container9 {
+        display: block;
+        font-size: 40px;
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .parent-h2-container9 {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container9 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 25px;
+    }
+
+    .parent-links-container9 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container9,
+    .second-link-container9 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container9 {
+        margin-right: 25px;
+    }
+
+    .first-link-container9::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container9::after {
+        display: block;
+        content: "";
+        width: 79%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .arrow-up-container9,
+    .right-arrow-12 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow-12 {
+        margin-left: 3px;
+    }
+
+    .parent-h1-container10 {
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .first-h1-container10 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .apple-icon-container10 {
+        display: block;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .parent-h2-container10 {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container10 {
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container10 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .right-arrow-13,
+    .right-arrow-14 {
+        font-size: 12px;
+        margin-left: 3px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container10 {
+        margin-right: 25px;
+    }
+
+    .first-link-container10,
+    .second-link-container10 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container10::after {
+        display: block;
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    nav {
+        height: 40px;
+        background-color: rgb(20, 20, 20);
+    }
+
+    .first-ul {
+        height: 40px;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .first-li {
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .first-links {
+        line-height: 40px;
+        display: block;
+        color: rgb(156, 156, 156);
+        height: 40px;
+        padding: 0px 10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        transition: all 400ms ease 0s;
+    }
+
+    .first-links:hover {
+        color: rgb(200, 200, 200);
+    }
+
+    .apple-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 35px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+        margin-left: -35px;
+        margin-right: 20px;
+    }
+
+    .apple-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .search-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+    }
+
+    .search-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bag-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        cursor: pointer;
+        transition: all 400ms ease 0s;
+        margin-left: 15px;
+    }
+
+    .bag-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* start to create container-fluid3********************************************************************************************************/
+    .container-fluid-3 {
+        height: 613px;
+        background-image: url(../images/image3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .parent-container3-h1 {
+        height: 50px;
+        margin-top: 90px;
+    }
+
+    .first-h1-container3 {
+        font-size: 48px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-container3-h3 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container3 {
+        font-size: 24px;
+        color: rgb(245, 245, 247);
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container3 {
+        height: 30px;
+        display: flex;
+    }
+
+    .first-link-container3 {
+        margin-right: 30px;
+    }
+
+    .first-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 87%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .first-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container3,
+    .second-link-container3 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 72%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .second-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow1,
+    .right-arrow2 {
+        font-size: 12px;
+    }
+
+    /* start to create container-fluid[4]******************************************************************************************************/
+    .container-fluid4 {
+        height: 613px;
+        background-image: url("../images/image7.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h1-container4 {
+        height: 55px;
+        margin-top: 60px;
+    }
+
+    .first-h1-container4 {
+        font-size: 48px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h3-container4 {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .first-h3-container4 {
+        font-size: 28px;
+    }
+
+    .parent-links-container4 {
+        display: flex;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-link-container4,
+    .second-link-container4 {
+        font-size: 19px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container4 {
+        margin-right: 33px;
+    }
+
+    .first-link-container4::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow3,
+    .right-arrow4 {
+        color: rgb(41, 151, 255);
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[5]******************************************************************************************************/
+    .container-fluid5 {
+        width: 48%;
+        margin-right: 15px;
+    }
+
+    .container-fluid5 {
+        height: 538px;
+        background-image: url("../images/image9.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h2-container5 {
+        display: flex;
+        margin-top: 40px;
+        height: 40px;
+    }
+
+    .first-h2-container5 {
+        color: rgb(245, 245, 247);
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container5 {
+        display: block;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        line-height: 32px;
+    }
+
+    .parent-h3-container5 {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container5 {
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 15px;
+        color: red;
+        line-height: 20px;
+    }
+
+    .parent-h1-container5 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h1-container5 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container5 {
+        margin-top: 10px;
+        display: flex;
+        height: 30px;
+    }
+
+    .first-link-container5,
+    .second-link-container5 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow5,
+    .right-arrow6 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container5 {
+        margin-right: 25px;
+    }
+
+    .first-link-container5::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container5::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[6]******************************************************************************************************/
+    .container-fluid6 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image10.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container6 {
+        height: 45px;
+        margin-top: 35px;
+    }
+
+    .first-h1-container6 {
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .parent-h2-container6 {
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .first-h2-container6 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container6 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container6,
+    .second-link-container6 {
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+    }
+
+    .right-arrow7,
+    .right-arrow8 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container6 {
+        margin-right: 23px;
+    }
+
+    .first-link-container6::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container6::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[7] & container-fluid[8]*****************************************************/
+    .container-7 {
+        width: 48%;
+        height: 538px;
+        background-color: orange;
+        margin-right: 15px;
+        background-image: url("../images/image18.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-alltext-h1-container7 {
+        height: 115px;
+        margin-top: 40px;
+    }
+
+    .first-h1-alltext-container7 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-h2-container7 {
+        height: 47px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container7 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+    }
+
+    .parent-links-container7 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container7,
+    .second-link-container7 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .first-link-container7 {
+        margin-right: 30px;
+    }
+
+    .first-link-container7::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container7::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow-9,
+    .right-arrow-10 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+
+    .container-8 {
+        width: 48%;
+        height: 538px;
+        background-image: url("../images/image16.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container8 {
+        height: 40px;
+        margin-top: 37px;
+    }
+
+    .first-h1-container8 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(10, 10, 10);
+    }
+
+    .parent-h2-container8 {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container8 {
+        font-size: 19px;
+        color: rgb(10, 10, 10);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-link-container8 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container8 {
+        line-height: 30px;
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .right-arrow11 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container8::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+        margin-top: -9px;
+    }
+
+    .first-link-container8:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-flui[9,10]*************************************************************************/
+    .container-9 {
+        width: 48.4%;
+        height: 538px;
+        background-image: url("../images/image21.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 10px;
+    }
+
+    .container-10 {
+        width: 48.4%;
+        height: 538px;
+        background-image: url("../images/image22.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-text-container9 {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container9 {
+        line-height: 50px;
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container9 {
+        display: block;
+        font-size: 28px;
+    }
+
+    .plus-icon-container9 {
+        display: block;
+        font-size: 40px;
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .parent-h2-container9 {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container9 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 25px;
+    }
+
+    .parent-links-container9 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container9,
+    .second-link-container9 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container9 {
+        margin-right: 25px;
+    }
+
+    .first-link-container9::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container9::after {
+        display: block;
+        content: "";
+        width: 79%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .arrow-up-container9,
+    .right-arrow-12 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow-12 {
+        margin-left: 3px;
+    }
+
+    .parent-h1-container10 {
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .first-h1-container10 {
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .apple-icon-container10 {
+        display: block;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .parent-h2-container10 {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container10 {
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container10 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .right-arrow-13,
+    .right-arrow-14 {
+        font-size: 12px;
+        margin-left: 3px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container10 {
+        margin-right: 25px;
+    }
+
+    .first-link-container10,
+    .second-link-container10 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container10::after {
+        display: block;
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    nav {
+        height: 40px;
+        background-color: rgb(20, 20, 20);
+    }
+
+    .first-ul {
+        height: 40px;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .first-li {
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .first-links {
+        line-height: 40px;
+        display: block;
+        color: rgb(156, 156, 156);
+        height: 40px;
+        padding: 0px 10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        transition: all 400ms ease 0s;
+    }
+
+    .first-links:hover {
+        color: rgb(200, 200, 200);
+    }
+
+    .apple-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 35px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .apple-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .search-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+    }
+
+    .search-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bag-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        cursor: pointer;
+        transition: all 400ms ease 0s;
+        margin-left: 15px;
+    }
+
+    .bag-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* start to create container-fluid3********************************************************************************************************/
+    .container-fluid-3 {
+        height: 624px;
+        background-image: url(../images/image4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .parent-container3-h1 {
+        height: 60px;
+        margin-top: 55px;
+    }
+
+    .first-h1-container3 {
+        font-size: 56px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-container3-h3 {
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container3 {
+        font-size: 28px;
+        color: rgb(245, 245, 247);
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container3 {
+        height: 30px;
+        display: flex;
+    }
+
+    .first-link-container3 {
+        margin-right: 30px;
+    }
+
+    .first-link-container3::after {
+        display: block;
+        margin-top: -3px;
+        content: "";
+        width: 87%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container3,
+    .second-link-container3 {
+        font-size: 21px;
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 72%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .second-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow1,
+    .right-arrow2 {
+        font-size: 12px;
+    }
+
+    /* start to create container-fluid[4]******************************************************************************************************/
+    .container-fluid4 {
+        height: 624px;
+        background-image: url("../images/image8.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h1-container4 {
+        height: 60px;
+        margin-top: 60px;
+    }
+
+    .first-h1-container4 {
+        font-size: 56px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h3-container4 {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .first-h3-container4 {
+        font-size: 28px;
+    }
+
+    .parent-links-container4 {
+        display: flex;
+        height: 35px;
+        margin-top: 5px;
+    }
+
+    .first-link-container4,
+    .second-link-container4 {
+        font-size: 21px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container4 {
+        margin-right: 33px;
+    }
+
+    .first-link-container4::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow3,
+    .right-arrow4 {
+        color: rgb(41, 151, 255);
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[5]******************************************************************************************************/
+    .container-fluid5 {
+        width: 48.5%;
+        margin-right: 15px;
+    }
+
+    .container-fluid5 {
+        height: 538px;
+        background-image: url("../images/image11.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h2-container5 {
+        display: flex;
+        margin-top: 40px;
+        height: 40px;
+    }
+
+    .first-h2-container5 {
+        color: rgb(245, 245, 247);
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container5 {
+        display: block;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        line-height: 32px;
+    }
+
+    .parent-h3-container5 {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container5 {
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 15px;
+        color: red;
+        line-height: 20px;
+    }
+
+    .parent-h1-container5 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h1-container5 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container5 {
+        margin-top: 10px;
+        display: flex;
+        height: 30px;
+    }
+
+    .first-link-container5,
+    .second-link-container5 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow5,
+    .right-arrow6 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container5 {
+        margin-right: 25px;
+    }
+
+    .first-link-container5::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container5::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[6]******************************************************************************************************/
+    .container-fluid6 {
+        width: 48.5%;
+        height: 538px;
+        background-image: url("../images/image12.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container6 {
+        height: 45px;
+        margin-top: 35px;
+    }
+
+    .first-h1-container6 {
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .parent-h2-container6 {
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .first-h2-container6 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container6 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container6,
+    .second-link-container6 {
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+    }
+
+    .right-arrow7,
+    .right-arrow8 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container6 {
+        margin-right: 23px;
+    }
+
+    .first-link-container6::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container6::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[7] & container-fluid[8]*****************************************************/
+    .container-7 {
+        width: 48.5%;
+        height: 624px;
+        background-color: orange;
+        margin-right: 15px;
+        background-image: url("../images/image14.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-alltext-h1-container7 {
+        height: 147px;
+        margin-top: 30px;
+    }
+
+    .first-h1-alltext-container7 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-h2-container7 {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container7 {
+        font-size: 21px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+    }
+
+    .parent-links-container7 {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-link-container7,
+    .second-link-container7 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .first-link-container7 {
+        margin-right: 30px;
+    }
+
+    .first-link-container7::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container7::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow-9,
+    .right-arrow-10 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .container-8 {
+        width: 48.5%;
+        height: 624px;
+        background-image: url("../images/image17.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container8 {
+        height: 48px;
+        margin-top: 27px;
+    }
+
+    .first-h1-container8 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(10, 10, 10);
+    }
+
+    .parent-h2-container8 {
+        height: 32px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container8 {
+        font-size: 21px;
+        color: rgb(10, 10, 10);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-link-container8 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container8 {
+        line-height: 30px;
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .right-arrow11 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container8::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+        margin-top: -9px;
+    }
+
+    .first-link-container8:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-flui[9,10]*************************************************************************/
+    .container-9 {
+        width: 48.5%;
+        height: 538px;
+        background-image: url("../images/image23.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 15px;
+    }
+
+    .container-10 {
+        width: 48.5%;
+        height: 538px;
+        background-image: url("../images/image24.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-text-container9 {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container9 {
+        line-height: 50px;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container9 {
+        display: block;
+        font-size: 36px;
+        margin-top: -6px;
+    }
+
+    .plus-icon-container9 {
+        display: block;
+        font-size: 40px;
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .parent-h2-container9 {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container9 {
+        font-size: 21px;
+        font-family: sans-serif;
+        line-height: 25px;
+    }
+
+    .parent-links-container9 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container9,
+    .second-link-container9 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container9 {
+        margin-right: 25px;
+    }
+
+    .first-link-container9::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container9::after {
+        display: block;
+        content: "";
+        width: 79%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .arrow-up-container9,
+    .right-arrow-12 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow-12 {
+        margin-left: 3px;
+    }
+
+    .parent-h1-container10 {
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .first-h1-container10 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .apple-icon-container10 {
+        display: block;
+        font-size: 36px;
+        line-height: 33px;
+    }
+
+    .parent-h2-container10 {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container10 {
+        font-size: 21px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container10 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .right-arrow-13,
+    .right-arrow-14 {
+        font-size: 12px;
+        margin-left: 3px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container10 {
+        margin-right: 25px;
+    }
+
+    .first-link-container10,
+    .second-link-container10 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container10::after {
+        display: block;
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+}
+
+@media all and (min-width:1400px) {
+    nav {
+        height: 40px;
+        background-color: rgb(20, 20, 20);
+    }
+
+    .first-ul {
+        height: 40px;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .first-li {
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .first-links {
+        line-height: 40px;
+        display: block;
+        color: rgb(156, 156, 156);
+        height: 40px;
+        padding: 0px 10px;
+        font-size: 12px;
+        font-family: sans-serif;
+        transition: all 400ms ease 0s;
+    }
+
+    .first-links:hover {
+        color: rgb(200, 200, 200);
+    }
+
+    .apple-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 35px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .apple-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .search-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        transition: all 400ms ease 0s;
+        cursor: pointer;
+    }
+
+    .search-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .bag-icon {
+        display: block;
+        height: 40px;
+        color: rgb(205, 205, 205);
+        padding: 0px 8px;
+        line-height: 40px;
+        cursor: pointer;
+        transition: all 400ms ease 0s;
+        margin-left: 15px;
+    }
+
+    .bag-icon:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* start to create container-fluid3********************************************************************************************************/
+    .container-fluid-3 {
+        height: 624px;
+        background-image: url(../images/image4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    .parent-container3-h1 {
+        height: 65px;
+        margin-top: 65px;
+    }
+
+    .first-h1-container3 {
+        font-size: 56px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-container3-h3 {
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container3 {
+        font-size: 28px;
+        color: rgb(245, 245, 247);
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container3 {
+        height: 30px;
+        display: flex;
+    }
+
+    .first-link-container3 {
+        margin-right: 30px;
+    }
+
+    .first-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 87%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .first-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .first-link-container3:hover {
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container3,
+    .second-link-container3 {
+        font-size: 21px;
+        color: rgb(41, 151, 255);
+    }
+
+    .second-link-container3::after {
+        margin-top: -3px;
+        display: block;
+        content: "";
+        width: 72%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+    }
+
+    .second-link-container3:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow1,
+    .right-arrow2 {
+        font-size: 12px;
+    }
+
+    /* start to create container-fluid[4]******************************************************************************************************/
+    .container-fluid4 {
+        height: 624px;
+        background-image: url("../images/image8.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h1-container4 {
+        height: 60px;
+        margin-top: 60px;
+    }
+
+    .first-h1-container4 {
+        font-size: 56px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .parent-h3-container4 {
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .first-h3-container4 {
+        font-size: 28px;
+    }
+
+    .parent-links-container4 {
+        display: flex;
+        height: 35px;
+        margin-top: 5px;
+    }
+
+    .first-link-container4,
+    .second-link-container4 {
+        font-size: 21px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container4 {
+        margin-right: 33px;
+    }
+
+    .first-link-container4::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container4::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -5px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container4:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow3,
+    .right-arrow4 {
+        color: rgb(41, 151, 255);
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    /* start to create container-fluid[5]******************************************************************************************************/
+    .container-fluid5 {
+        height: 624px !important;
+        width: 48.8%;
+        margin-right: 15px;
+    }
+
+    .container-fluid5 {
+        height: 538px;
+        background-image: url("../images/image11.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-h2-container5 {
+        display: flex;
+        margin-top: 40px;
+        height: 40px;
+    }
+
+    .first-h2-container5 {
+        color: rgb(245, 245, 247);
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container5 {
+        display: block;
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        line-height: 32px;
+    }
+
+    .parent-h3-container5 {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .first-h3-container5 {
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 15px;
+        color: red;
+        line-height: 20px;
+    }
+
+    .parent-h1-container5 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-h1-container5 {
+        font-size: 19px;
+        color: rgb(245, 245, 247);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container5 {
+        margin-top: 10px;
+        display: flex;
+        height: 30px;
+    }
+
+    .first-link-container5,
+    .second-link-container5 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow5,
+    .right-arrow6 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container5 {
+        margin-right: 25px;
+    }
+
+    .first-link-container5::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container5::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container5:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[6]******************************************************************************************************/
+    .container-fluid6 {
+        width: 48.8%;
+        height: 624px;
+        background-image: url("../images/image12.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container6 {
+        height: 45px;
+        margin-top: 35px;
+    }
+
+    .first-h1-container6 {
+        font-size: 32px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .parent-h2-container6 {
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    .first-h2-container6 {
+        font-size: 19px;
+        font-family: sans-serif;
+        line-height: 30px;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-links-container6 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container6,
+    .second-link-container6 {
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+    }
+
+    .right-arrow7,
+    .right-arrow8 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container6 {
+        margin-right: 23px;
+    }
+
+    .first-link-container6::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container6::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -3px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container6:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-fluid[7] & container-fluid[8]*****************************************************/
+    .container-7 {
+        width: 48.8%;
+        height: 624px;
+        background-color: orange;
+        margin-right: 15px;
+        background-image: url("../images/image14.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-alltext-h1-container7 {
+        height: 147px;
+        margin-top: 30px;
+    }
+
+    .first-h1-alltext-container7 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(245, 245, 247);
+    }
+
+    .parent-h2-container7 {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container7 {
+        font-size: 21px;
+        color: rgb(245, 245, 247);
+        font-family: sans-serif;
+    }
+
+    .parent-links-container7 {
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .first-link-container7,
+    .second-link-container7 {
+        font-size: 17px;
+        color: rgb(41, 151, 255);
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .first-link-container7 {
+        margin-right: 30px;
+    }
+
+    .first-link-container7::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container7::after {
+        display: block;
+        content: "";
+        width: 64%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container7:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-arrow-9,
+    .right-arrow-10 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+
+    .container-8 {
+        width: 48.8%;
+        height: 624px;
+        background-image: url("../images/image17.jpg");
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .parent-h1-container8 {
+        height: 48px;
+        margin-top: 27px;
+    }
+
+    .first-h1-container8 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: rgb(10, 10, 10);
+    }
+
+    .parent-h2-container8 {
+        height: 32px;
+        margin-top: 5px;
+    }
+
+    .first-h2-container8 {
+        font-size: 21px;
+        color: rgb(10, 10, 10);
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+
+    .parent-link-container8 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container8 {
+        line-height: 30px;
+        color: rgb(41, 151, 255);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .right-arrow11 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+        margin-left: 3px;
+    }
+
+    .first-link-container8::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        transform: scaleX(0);
+        margin-top: -9px;
+    }
+
+    .first-link-container8:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* start to create container-flui[9,10]*************************************************************************/
+    .container-9 {
+        width: 48.8%;
+        height: 538px;
+        background-image: url("../images/image23.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 15px;
+    }
+
+    .container-10 {
+        width: 48.8%;
+        height: 538px;
+        background-image: url("../images/image24.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parent-text-container9 {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .first-h1-container9 {
+        line-height: 50px;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .apple-icon-container9 {
+        display: block;
+        font-size: 36px;
+        margin-top: -6px;
+    }
+
+    .plus-icon-container9 {
+        display: block;
+        font-size: 40px;
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .parent-h2-container9 {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container9 {
+        font-size: 21px;
+        font-family: sans-serif;
+        line-height: 25px;
+    }
+
+    .parent-links-container9 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .first-link-container9,
+    .second-link-container9 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container9 {
+        margin-right: 25px;
+    }
+
+    .first-link-container9::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container9::after {
+        display: block;
+        content: "";
+        width: 79%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -9px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container9:hover::after {
+        transform: scaleX(1);
+    }
+
+    .arrow-up-container9,
+    .right-arrow-12 {
+        font-size: 12px;
+        color: rgb(41, 151, 255);
+    }
+
+    .right-arrow-12 {
+        margin-left: 3px;
+    }
+
+    .parent-h1-container10 {
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .first-h1-container10 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .apple-icon-container10 {
+        display: block;
+        font-size: 36px;
+        line-height: 33px;
+    }
+
+    .parent-h2-container10 {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .first-h2-container10 {
+        font-size: 21px;
+        font-family: sans-serif;
+    }
+
+    .parent-links-container10 {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .right-arrow-13,
+    .right-arrow-14 {
+        font-size: 12px;
+        margin-left: 3px;
+        color: rgb(41, 151, 255);
+    }
+
+    .first-link-container10 {
+        margin-right: 25px;
+    }
+
+    .first-link-container10,
+    .second-link-container10 {
+        font-size: 17px;
+        font-family: sans-serif;
+        color: rgb(41, 151, 255);
+        line-height: 30px;
+    }
+
+    .first-link-container10::after {
+        display: block;
+        content: "";
+        width: 84%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .first-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+    .second-link-container10::after {
+        display: block;
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: rgb(41, 151, 255);
+        margin-top: -7px;
+        transform: scaleX(0);
+    }
+
+    .second-link-container10:hover::after {
+        transform: scaleX(1);
+    }
+
+}
