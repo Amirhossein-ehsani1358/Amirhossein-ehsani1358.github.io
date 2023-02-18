@@ -888,13 +888,13 @@ body {
         background-position-x: 50%;
     }
 
-    .image{
+    .image {
         margin-right: 15px;
         width: 274px;
         background-position-x: 50%;
     }
 
-    .image-10{
+    .image-10 {
         margin-left: -160px;
     }
 
@@ -932,20 +932,134 @@ body {
         line-height: 30px;
         font-size: 24px;
     }
+
     /* start to create container-fluid[12]*****************************************************************************************************/
-    .container-12{
-        height: 1010px;
+    .container-12 {
+        height: auto;
         background-color: rgb(240, 240, 240);
     }
 
-    .parent-paragraph-container12{
+    .parent-paragraph-container12 {
         height: auto;
         padding: 0px 30px;
     }
-    
-    .first-paragraph-container12{
+
+    .first-paragraph-container12 {
         font-size: 12px;
         color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph2-container12 {
+        height: auto;
+        padding: 0px 30px;
+        margin-top: -6px;
+    }
+
+    .second-paragraph-container12 {
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph3-container12 {
+        height: auto;
+        padding: 0px 30px;
+        margin-top: -9px;
+    }
+
+    .third-paragraph-container12 {
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+        line-height: 25px;
+    }
+
+    .parent-paragraph4-container12 {
+        height: auto;
+        padding: 0px 30px;
+        margin-top: -9px;
+    }
+
+    .forth-paragraph-container12 {
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .first-link-container12 {
+        cursor: pointer;
+        color: rgb(66, 66, 69);
+    }
+
+    .hr {
+        width: 90%;
+        color: rgb(110, 110, 110);
+    }
+
+    /* next part of footer about ul and li***************************/
+    .parent-ul-li-container12 {
+        height: auto;
+    }
+
+    .first-ul-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: -3px;
+    }
+
+    .line-between-container12 {
+        width: 90%;
+        height: 1px;
+        background-color: rgb(210, 210, 210);
+    }
+
+    .first-li-container12 {
+        display: flex;
+        width: 90%;
+        height: 30px;
+        margin-top: 8.5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+        line-height: 30px;
+        color: rgb(50, 50, 50);
+        cursor: pointer;
+    }
+
+    .change-color-li {
+        color: rgb(0, 0, 0);
+    }
+
+    .plus-icon-container12 {
+        display: block;
+        font-size: 15px;
+        line-height: 33px;
+        position: absolute;
+        right: 30px;
+        transition: all 500ms ease 0s;
+    }
+
+    .plus-1-rotate {
+        transform: rotateZ(45deg) !important;
+    }
+    /* first slide up for first li**********************************************/
+    .slid-up-1-container12{
+        height: auto;
+        width: 90%;
+    }
+
+    .ul-first-slideup{
+        height: auto;
+        width: 90%;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .li-first-slideup{
+        height: 20px;
+        width: 100%;
+        background-color: red;
+        font-size: 13px;
+        margin-top: 5px;
+        cursor: pointer;
     }
 }
 
