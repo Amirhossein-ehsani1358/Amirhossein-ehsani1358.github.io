@@ -1254,6 +1254,124 @@ body {
         text-decoration: underline !important;
     }
 
+    /* start to create slide 8 for footer *******************************************************/
+    .slide-up-8-container12{
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide8-container12{
+        height: auto;
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .li-slide8-container12{
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide8-container12{
+        text-decoration: none !important;
+        font-size: 13px;
+        line-height: 25px;
+        color: rgb(66, 66, 69);
+    }
+
+    .show-line-slide8{
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 9 for footer  **************************************************************/
+    .slide-up-9-container12{
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide9-container12{
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide9-container12{
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide9-container12{
+        text-decoration: none !important;
+        color: rgb(66, 66, 69);
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .show-line-slide9{
+        text-decoration: underline !important;
+    }
+    /* start to create slide 10 for footer ************************************************************/
+    .slide-up-10-container12{
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide10-container12{
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide10-container12{
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide10-container12{
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        line-height: 25px;
+    }
+
+    .show-line-slide10{
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 11 for footer ************************************************************/
+    .slide-up-11-container12{
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide11-container12{
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide11-container12{
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide11-container12{
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        line-height: 25px;
+    }
+
+    .show-line-slide11{
+        text-decoration: underline !important;
+    }
 }
 
 

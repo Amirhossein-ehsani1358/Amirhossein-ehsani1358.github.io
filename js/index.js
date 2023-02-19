@@ -24,6 +24,10 @@ $("#for-li-slide4").slideUp();
 $("#for-li-slide5").slideUp();
 $("#for-li-slide6").slideUp();
 $("#for-li-slide7").slideUp();
+$("#for-li-slide8").slideUp();
+$("#for-li-slide9").slideUp();
+$("#for-li-slide10").slideUp();
+$("#for-li-slide11").slideUp();
 
 // this place is for slide up container-12///////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -544,4 +548,175 @@ $(document).ready(function () {
     $("#li-slide7").click(function(){
         $("#for-li-slide7").slideToggle();
     });
+    // start to create jQuery for slide 8 in footer /////////////////////////////////////////////////
+    $(".li1-slide8-container12").on({
+        mouseenter:function(){
+            $(".link1-slide8-container12").addClass("show-line-slide8");
+        },
+        mouseout:function(){
+            $(".link1-slide8-container12").removeClass("show-line-slide8");
+        }
+    });
+    $(".li2-slide8-container12").on({
+        mouseenter:function(){
+            $(".link2-slide8-container12").addClass("show-line-slide8");
+        },
+        mouseout:function(){
+            $(".link2-slide8-container12").removeClass("show-line-slide8");
+        }
+    });
+    $(".li3-slide8-container12").on({
+        mouseenter:function(){
+            $(".link3-slide8-container12").addClass("show-line-slide8");
+        },
+        mouseout:function(){
+            $(".link3-slide8-container12").removeClass("show-line-slide8");
+        }
+    });
+    $("#li-slide8").click(function(){
+        $("#for-li-slide8").slideToggle();
+    });
+
+    // start to create jQuery for slide 9 in footer //////////////////////////////////////////////////
+    $(".li1-slide9-container12").on({
+        mouseenter:function(){
+            $(".link1-slide9-container12").addClass("show-line-slide9");
+        },
+        mouseout:function(){
+            $(".link1-slide9-container12").removeClass("show-line-slide9");
+        }
+    });
+    $(".li2-slide9-container12").on({
+        mouseenter:function(){
+            $(".link2-slide9-container12").addClass("show-line-slide9");
+        },
+        mouseout:function(){
+            $(".link2-slide9-container12").removeClass("show-line-slide9");
+        }
+    }); 
+    $("#li-slide9").click(function(){
+        $("#for-li-slide9").slideToggle();
+    });
+
+    // start to create jQuery for slide 10 in footer /////////////////////////////////////////////////
+    $(".li1-slide10-container12").on({
+        mouseenter:function(){
+            $(".link1-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link1-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li2-slide10-container12").on({
+        mouseenter:function(){
+            $(".link2-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link2-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li3-slide10-container12").on({
+        mouseenter:function(){
+            $(".link3-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link3-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li4-slide10-container12").on({
+        mouseenter:function(){
+            $(".link4-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link4-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li5-slide10-container12").on({
+        mouseenter:function(){
+            $(".link5-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link5-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li6-slide10-container12").on({
+        mouseenter:function(){
+            $(".link6-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link6-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $(".li7-slide10-container12").on({
+        mouseenter:function(){
+            $(".link7-slide10-container12").addClass("show-line-slide10");
+        },
+        mouseout:function(){
+            $(".link7-slide10-container12").removeClass("show-line-slide10");
+        }
+    });
+    $("#li-slide10").click(function(){
+        $("#for-li-slide10").slideToggle();
+    });
+    // start to create jQuery for slide 11 in footer //////////////////////////////////////////////////
+    $(".li1-slide11-container12").on({
+        mouseenter:function(){
+            $(".link1-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link1-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li2-slide11-container12").on({
+        mouseenter:function(){
+            $(".link2-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link2-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li3-slide11-container12").on({
+        mouseenter:function(){
+            $(".link3-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link3-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li4-slide11-container12").on({
+        mouseenter:function(){
+            $(".link4-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link4-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li5-slide11-container12").on({
+        mouseenter:function(){
+            $(".link5-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link5-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li6-slide11-container12").on({
+        mouseenter:function(){
+            $(".link6-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link6-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $(".li7-slide11-container12").on({
+        mouseenter:function(){
+            $(".link7-slide11-container12").addClass("show-line-slide11");
+        },
+        mouseout:function(){
+            $(".link7-slide11-container12").removeClass("show-line-slide11");
+        }
+    });
+    $("#li-slide11").click(function(){
+        $("#for-li-slide11").slideToggle();
+    });
+    
 });
