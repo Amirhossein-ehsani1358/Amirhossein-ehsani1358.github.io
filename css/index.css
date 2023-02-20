@@ -5,10 +5,6 @@
     outline: 0;
 }
 
-body {
-    height: 5000px;
-}
-
 @media all and (max-width:767px) {
 
     /* start to create navigation for small size************************************************************************************************/
@@ -1105,42 +1101,44 @@ body {
     .show-underline-li-slide-container12 {
         text-decoration: underline !important;
     }
+
     /* start to create slide-3 for li-3 in footer page ***********************************************/
-    .slide-up-3-container12{
+    .slide-up-3-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide3-container12{
+    .first-ul-slide3-container12 {
         height: auto;
         margin-bottom: 10px;
         list-style-type: none;
         padding-left: 0px;
     }
 
-    .first-li-slide3-container12{
+    .first-li-slide3-container12 {
         height: 25px;
         cursor: pointer;
         padding-left: 26px;
     }
 
-    .links-slide3-container12{
+    .links-slide3-container12 {
         font-size: 13px;
         color: rgb(66, 66, 69);
         line-height: 25px;
         text-decoration: none !important;
     }
 
-    .show-underline-slide3{
+    .show-underline-slide3 {
         text-decoration: underline !important;
     }
+
     /* start to create slide 4 for footer ***************************************************************/
-    .slide-up-4-container12{
+    .slide-up-4-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide3-container12{
+    .first-ul-slide3-container12 {
         height: auto;
         width: 100%;
         padding-left: 0px;
@@ -1148,228 +1146,317 @@ body {
         margin-bottom: 10px;
     }
 
-    .li-slide3-container12{
+    .li-slide3-container12 {
         width: 100%;
         height: 25px;
         padding-left: 26px;
     }
 
-    .links-slide3-container12{
+    .links-slide3-container12 {
         text-decoration: none !important;
         font-size: 13px;
         color: rgb(66, 66, 69);
     }
 
-    .show-underline-slide3-container12{
+    .show-underline-slide3-container12 {
         text-decoration: underline !important;
     }
 
     /* start to create slide 5 for footer ***********************************************************/
-    .slide-up-5-container12{
+    .slide-up-5-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide5-container12{
+    .first-ul-slide5-container12 {
         height: auto;
         margin-bottom: 10px;
         padding-left: 0px;
         list-style-type: none;
     }
 
-    .li-slide5-container12{
+    .li-slide5-container12 {
         height: 25px;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide5-container12{
+    .links-slide5-container12 {
         text-decoration: none !important;
         color: rgb(66, 66, 69);
         font-size: 13px;
         line-height: 25px;
     }
 
-    .show-underline-slide5-container12{
+    .show-underline-slide5-container12 {
         text-decoration: underline !important;
     }
 
     /* start for create slide 6 for footer ************************************************************/
-    .slide-up-6-container12{
+    .slide-up-6-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide6-container12{
+    .first-ul-slide6-container12 {
         height: auto;
         list-style-type: none;
         margin-bottom: 10px;
         padding-left: 0px;
     }
 
-    .li-slide6-container12{
+    .li-slide6-container12 {
         padding-left: 26px;
         height: 25px;
         cursor: pointer;
     }
 
-    .links-slide6-container12{
+    .links-slide6-container12 {
         font-size: 13px;
         color: rgb(66, 66, 69);
         text-decoration: none !important;
         line-height: 25px;
     }
 
-    .show-line-slide6{
+    .show-line-slide6 {
         text-decoration: underline !important;
     }
 
     /* start to create slide 7 for footer *************************************************************/
-    .slide-up-7-container12{
+    .slide-up-7-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide7-container12{
+    .first-ul-slide7-container12 {
         height: auto;
         margin-bottom: 10px;
         padding-left: 0px;
         list-style-type: none;
     }
 
-    .li-slide7-container12{
+    .li-slide7-container12 {
         height: 25px;
         height: auto;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide7-container12{
+    .links-slide7-container12 {
         font-size: 13px;
         color: rgb(66, 66, 69);
         text-decoration: none !important;
     }
 
-    .show-line-slide7{
+    .show-line-slide7 {
         text-decoration: underline !important;
     }
 
     /* start to create slide 8 for footer *******************************************************/
-    .slide-up-8-container12{
+    .slide-up-8-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide8-container12{
+    .first-ul-slide8-container12 {
         height: auto;
         list-style-type: none;
         margin-bottom: 10px;
         padding-left: 0px;
     }
 
-    .li-slide8-container12{
+    .li-slide8-container12 {
         height: 25px;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide8-container12{
+    .links-slide8-container12 {
         text-decoration: none !important;
         font-size: 13px;
         line-height: 25px;
         color: rgb(66, 66, 69);
     }
 
-    .show-line-slide8{
+    .show-line-slide8 {
         text-decoration: underline !important;
     }
 
     /* start to create slide 9 for footer  **************************************************************/
-    .slide-up-9-container12{
+    .slide-up-9-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide9-container12{
+    .first-ul-slide9-container12 {
         height: auto;
         list-style-type: none;
         padding-left: 0px;
         margin-bottom: 10px;
     }
 
-    .li-slide9-container12{
+    .li-slide9-container12 {
         height: 25px;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide9-container12{
+    .links-slide9-container12 {
         text-decoration: none !important;
         color: rgb(66, 66, 69);
         font-size: 13px;
         line-height: 25px;
     }
 
-    .show-line-slide9{
+    .show-line-slide9 {
         text-decoration: underline !important;
     }
+
     /* start to create slide 10 for footer ************************************************************/
-    .slide-up-10-container12{
+    .slide-up-10-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide10-container12{
+    .first-ul-slide10-container12 {
         height: auto;
         list-style-type: none;
         padding-left: 0px;
         margin-bottom: 10px;
     }
 
-    .li-slide10-container12{
+    .li-slide10-container12 {
         height: 25px;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide10-container12{
+    .links-slide10-container12 {
         font-size: 13px;
         color: rgb(66, 66, 69);
         text-decoration: none !important;
         line-height: 25px;
     }
 
-    .show-line-slide10{
+    .show-line-slide10 {
         text-decoration: underline !important;
     }
 
     /* start to create slide 11 for footer ************************************************************/
-    .slide-up-11-container12{
+    .slide-up-11-container12 {
         height: auto;
         width: 90%;
     }
 
-    .first-ul-slide11-container12{
+    .first-ul-slide11-container12 {
         height: auto;
         list-style-type: none;
         padding-left: 0px;
         margin-bottom: 10px;
     }
 
-    .li-slide11-container12{
+    .li-slide11-container12 {
         height: 25px;
         padding-left: 26px;
         cursor: pointer;
     }
 
-    .links-slide11-container12{
+    .links-slide11-container12 {
         font-size: 13px;
         color: rgb(66, 66, 69);
         text-decoration: none !important;
         line-height: 25px;
     }
 
-    .show-line-slide11{
+    .show-line-slide11 {
+        text-decoration: underline !important;
+    }
+
+    /* next part for footer ***************************************************************************/
+    .parent-text-link-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .f-para-container12 {
+        font-size: 13px;
+        color: rgb(110, 110, 115);
+    }
+
+    /* next part of footer ****************************************************************************/
+    .parent-link-container12-footer {
+        height: auto;
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .f-link-footer {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        cursor: none;
+    }
+
+    .f-link-footer:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+    }
+
+    /* next part of footer *****************************************************************************/
+    .parent-text-footer {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .f-text-footer {
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+    }
+
+    /* last part of footer *****************************************************************************/
+    .parent-links-footer {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .line-footer {
+        height: 20px;
+        width: 1px;
+        background-color: rgb(100, 100, 100);
+    }
+
+    .links-footer {
+        height: 20px;
+        color: rgb(66, 66, 69);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .link1-footer {
+        padding-left: 0px !important;
+    }
+
+    .link1-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link2-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link3-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link4-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link5-footer:hover {
         text-decoration: underline !important;
     }
 }
@@ -2240,6 +2327,545 @@ body {
     .second-link-container10:hover::after {
         transform: scaleX(1);
     }
+
+    /* start to create container-fluid[12]*****************************************************************************************************/
+    .container-12 {
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .parent-paragraph-container12 {
+        height: auto;
+    }
+
+    .first-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph2-container12 {
+        height: auto;
+        margin-top: -6px;
+    }
+
+    .second-paragraph-container12 {
+        width: 90%;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph3-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .third-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+        line-height: 25px;
+    }
+
+    .parent-paragraph4-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .forth-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .first-link-container12 {
+        cursor: pointer;
+        color: rgb(66, 66, 69);
+    }
+
+    .hr {
+        width: 90%;
+        color: rgb(110, 110, 110);
+    }
+
+    /* next part of footer about ul and li***************************/
+    .parent-ul-li-container12 {
+        height: auto;
+    }
+
+    .first-ul-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: -3px;
+    }
+
+    .line-between-container12 {
+        width: 90%;
+        height: 1px;
+        background-color: rgb(210, 210, 210);
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .first-li-container12 {
+        display: flex;
+        width: 90%;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px;
+        line-height: 30px;
+        color: rgb(50, 50, 50);
+        cursor: pointer;
+    }
+
+    .change-color-li {
+        color: rgb(0, 0, 0);
+    }
+
+    .plus-icon-container12 {
+        display: block;
+        font-size: 15px;
+        line-height: 33px;
+        position: absolute;
+        right: 30px;
+        transition: all 500ms ease 0s;
+    }
+
+    .plus-1-rotate {
+        transform: rotateZ(45deg) !important;
+    }
+
+    /* first slide up for first li**********************************************/
+    .slide-up-1-container12 {
+        height: auto;
+        overflow: hidden;
+        width: 90%;
+    }
+
+    .ul-first-slideup {
+        height: auto;
+        overflow: hidden;
+        width: 90%;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .li-first-slideup {
+        height: 25px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    /* start to create underline for li that are in slide up***************************/
+
+    .link-slideup-container12 {
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        font-size: 13px;
+    }
+
+    .show-underline-slideup-container12 {
+        text-decoration: underline !important;
+    }
+
+    /* slide 2 -- container-fluid[12]***************************************************/
+    .slide-up-2-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .first-ul-slide-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide-2-container12 {
+        height: 25px;
+        width: 100%;
+        cursor: pointer;
+        padding-left: 26px;
+    }
+
+    .links-slide-2-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+    }
+
+
+    .show-underline-li-slide-container12 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide-3 for li-3 in footer page ***********************************************/
+    .slide-up-3-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide3-container12 {
+        height: auto;
+        margin-bottom: 10px;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .first-li-slide3-container12 {
+        height: 25px;
+        cursor: pointer;
+        padding-left: 26px;
+    }
+
+    .links-slide3-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        line-height: 25px;
+        text-decoration: none !important;
+    }
+
+    .show-underline-slide3 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 4 for footer ***************************************************************/
+    .slide-up-4-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide3-container12 {
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+
+    .li-slide3-container12 {
+        width: 100%;
+        height: 25px;
+        padding-left: 26px;
+    }
+
+    .links-slide3-container12 {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+    }
+
+    .show-underline-slide3-container12 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 5 for footer ***********************************************************/
+    .slide-up-5-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide5-container12 {
+        height: auto;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        list-style-type: none;
+    }
+
+    .li-slide5-container12 {
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide5-container12 {
+        text-decoration: none !important;
+        color: rgb(66, 66, 69);
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .show-underline-slide5-container12 {
+        text-decoration: underline !important;
+    }
+
+    /* start for create slide 6 for footer ************************************************************/
+    .slide-up-6-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide6-container12 {
+        height: auto;
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .li-slide6-container12 {
+        padding-left: 26px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .links-slide6-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        line-height: 25px;
+    }
+
+    .show-line-slide6 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 7 for footer *************************************************************/
+    .slide-up-7-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide7-container12 {
+        height: auto;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        list-style-type: none;
+    }
+
+    .li-slide7-container12 {
+        height: 25px;
+        height: auto;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide7-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+    }
+
+    .show-line-slide7 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 8 for footer *******************************************************/
+    .slide-up-8-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide8-container12 {
+        height: auto;
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .li-slide8-container12 {
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide8-container12 {
+        text-decoration: none !important;
+        font-size: 13px;
+        line-height: 25px;
+        color: rgb(66, 66, 69);
+    }
+
+    .show-line-slide8 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 9 for footer  **************************************************************/
+    .slide-up-9-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide9-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide9-container12 {
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide9-container12 {
+        text-decoration: none !important;
+        color: rgb(66, 66, 69);
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .show-line-slide9 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 10 for footer ************************************************************/
+    .slide-up-10-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide10-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide10-container12 {
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide10-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        line-height: 25px;
+    }
+
+    .show-line-slide10 {
+        text-decoration: underline !important;
+    }
+
+    /* start to create slide 11 for footer ************************************************************/
+    .slide-up-11-container12 {
+        height: auto;
+        width: 90%;
+    }
+
+    .first-ul-slide11-container12 {
+        height: auto;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .li-slide11-container12 {
+        height: 25px;
+        padding-left: 26px;
+        cursor: pointer;
+    }
+
+    .links-slide11-container12 {
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        text-decoration: none !important;
+        line-height: 25px;
+    }
+
+    .show-line-slide11 {
+        text-decoration: underline !important;
+    }
+
+    /* next part for footer ***************************************************************************/
+    .parent-text-link-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .f-para-container12 {
+        font-size: 13px;
+        color: rgb(110, 110, 115);
+    }
+
+    /* next part of footer ****************************************************************************/
+    .parent-link-container12-footer {
+        height: auto;
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .f-link-footer {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        cursor: none;
+    }
+
+    .f-link-footer:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+    }
+
+    /* next part of footer *****************************************************************************/
+    .parent-text-footer {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .f-text-footer {
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+    }
+
+    /* last part of footer *****************************************************************************/
+    .parent-links-footer {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .line-footer {
+        height: 20px;
+        width: 1px;
+        background-color: rgb(100, 100, 100);
+    }
+
+    .links-footer {
+        height: 20px;
+        color: rgb(66, 66, 69);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .link1-footer {
+        padding-left: 0px !important;
+    }
+
+    .link1-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link2-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link3-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link4-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link5-footer:hover {
+        text-decoration: underline !important;
+    }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -3027,6 +3653,261 @@ body {
         transform: scaleX(1);
     }
 
+    /* start to create container-fluid[12]*****************************************************************************************************/
+    .container-12 {
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .parent-paragraph-container12 {
+        height: auto;
+    }
+
+    .first-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph2-container12 {
+        height: auto;
+        margin-top: -6px;
+    }
+
+    .second-paragraph-container12 {
+        width: 90%;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph3-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .third-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+        line-height: 25px;
+    }
+
+    .parent-paragraph4-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .forth-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        color: rgb(110, 110, 115);
+    }
+
+    .first-link-container12 {
+        cursor: pointer;
+        color: rgb(66, 66, 69);
+    }
+
+    .hr {
+        width: 95%;
+        color: rgb(110, 110, 110);
+    }
+
+    /* next part for footer ***************************************************************************/
+    .parent-text-link-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .f-para-container12 {
+        font-size: 13px;
+        color: rgb(110, 110, 115);
+    }
+
+    /* next part of footer ****************************************************************************/
+    .parent-link-container12-footer {
+        height: auto;
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .f-link-footer {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        cursor: none;
+    }
+
+    .f-link-footer:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+    }
+
+    /* next part of footer *****************************************************************************/
+    .parent-text-footer {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .f-text-footer {
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+    }
+
+    /* last part of footer *****************************************************************************/
+    .parent-links-footer {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .line-footer {
+        height: 20px;
+        width: 1px;
+        background-color: rgb(100, 100, 100);
+    }
+
+    .links-footer {
+        height: 20px;
+        color: rgb(66, 66, 69);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .link1-footer {
+        padding-left: 0px !important;
+    }
+
+    .link1-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link2-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link3-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link4-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link5-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    /* hide ul that open or show in big size start of large size ******************************************************************************/
+    .ul-footer {
+        height: 434px;
+        margin-top: -10px;
+        background-color: orange;
+        justify-content: center;
+    }
+
+    .box1 {
+        margin-right: 40px;
+        height: 246px;
+        background-color: white;
+    }
+
+    .font-footer {
+        font-size: 13px;
+    }
+
+    .first-ul-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 246px;
+        padding-left: 0px;
+    }
+
+    .first-li-footer {
+        width: 100%;
+        height: 22.4px;
+        padding-left: 26px;
+        color: black;
+    }
+
+    .s-link-footer {
+        color: rgb(66, 66, 69);
+    }
+
+    .box2 {
+        height: 87px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .box3 {
+        height: 246px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul2-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 87px;
+        padding-left: 0px;
+    }
+
+    .box4 {
+        height: 67px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul3-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 67px;
+        padding-left: 0px;
+    }
+
+    .box5 {
+        height: 180px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul4-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 180px;
+        padding-left: 0px;
+    }
+
+    .box6 {
+        position: absolute;
+        height: 110px;
+        background-color: white;
+        margin-top: 250px;
+        left: 33px;
+    }
+
+    .box7 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin-top: 100px;
+        left: 190px;
+    }
+
+    /* hide ul that open or show in big size start of large size ******************************************************************************/
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
@@ -3813,6 +4694,262 @@ body {
         transform: scaleX(1);
     }
 
+    /* start to create container-fluid[12]*****************************************************************************************************/
+    .container-12 {
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .parent-paragraph-container12 {
+        height: auto;
+    }
+
+    .first-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph2-container12 {
+        height: auto;
+        margin-top: -6px;
+    }
+
+    .second-paragraph-container12 {
+        width: 90%;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph3-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .third-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        color: rgb(110, 110, 115);
+        line-height: 25px;
+    }
+
+    .parent-paragraph4-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .forth-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        color: rgb(110, 110, 115);
+    }
+
+    .first-link-container12 {
+        cursor: pointer;
+        color: rgb(66, 66, 69);
+    }
+
+    .hr {
+        width: 90%;
+        color: rgb(110, 110, 110);
+    }
+
+    /* next part for footer ***************************************************************************/
+    .parent-text-link-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .f-para-container12 {
+        font-size: 13px;
+        color: rgb(110, 110, 115);
+    }
+
+    /* next part of footer ****************************************************************************/
+    .parent-link-container12-footer {
+        height: auto;
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .f-link-footer {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        cursor: none;
+    }
+
+    .f-link-footer:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+    }
+
+    /* next part of footer *****************************************************************************/
+    .parent-text-footer {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .f-text-footer {
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+    }
+
+    /* last part of footer *****************************************************************************/
+    .parent-links-footer {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .line-footer {
+        height: 20px;
+        width: 1px;
+        background-color: rgb(100, 100, 100);
+    }
+
+    .links-footer {
+        height: 20px;
+        color: rgb(66, 66, 69);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .link1-footer {
+        padding-left: 0px !important;
+    }
+
+    .link1-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link2-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link3-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link4-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link5-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    /* hide ul that open or show in big size start of large size **************************************************************************/
+    .ul-footer {
+        height: 434px;
+        margin-top: -10px;
+        background-color: orange;
+        justify-content: center;
+    }
+
+    .box1 {
+        margin-right: 40px;
+        height: 246px;
+        background-color: white;
+    }
+
+    .font-footer {
+        font-size: 13px;
+    }
+
+    .first-ul-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 246px;
+        padding-left: 0px;
+    }
+
+    .first-li-footer {
+        width: 100%;
+        height: 22.4px;
+        padding-left: 26px;
+        color: black;
+    }
+
+    .s-link-footer {
+        color: rgb(66, 66, 69);
+    }
+
+    .box2 {
+        height: 87px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .box3 {
+        height: 246px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul2-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 87px;
+        padding-left: 0px;
+    }
+
+    .box4 {
+        height: 67px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul3-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 67px;
+        padding-left: 0px;
+    }
+
+    .box5 {
+        height: 180px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul4-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 180px;
+        padding-left: 0px;
+    }
+
+    .box6 {
+        position: absolute;
+        height: 110px;
+        background-color: white;
+        margin-top: 250px;
+        left: 33px;
+    }
+
+    .box7 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin-top: 100px;
+        left: 190px;
+    }
+
+    /* hide ul that open or show in big size start of large size *************************************************************************/
+
 }
 
 @media all and (min-width:1400px) {
@@ -4261,7 +5398,6 @@ body {
     .container-7 {
         width: 48.8%;
         height: 624px;
-        background-color: orange;
         margin-right: 15px;
         background-image: url("../images/image14.jpg");
         background-position: 50%;
@@ -4600,5 +5736,261 @@ body {
     .second-link-container10:hover::after {
         transform: scaleX(1);
     }
+
+    /* start to create container-fluid[12]*****************************************************************************************************/
+    .container-12 {
+        height: auto;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .parent-paragraph-container12 {
+        height: auto;
+    }
+
+    .first-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph2-container12 {
+        height: auto;
+        margin-top: -6px;
+    }
+
+    .second-paragraph-container12 {
+        width: 90%;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(110, 110, 115);
+    }
+
+    .parent-paragraph3-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .third-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        color: rgb(110, 110, 115);
+        line-height: 25px;
+    }
+
+    .parent-paragraph4-container12 {
+        height: auto;
+        margin-top: -9px;
+    }
+
+    .forth-paragraph-container12 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        color: rgb(110, 110, 115);
+    }
+
+    .first-link-container12 {
+        cursor: pointer;
+        color: rgb(66, 66, 69);
+    }
+
+    .hr {
+        width: 90%;
+        color: rgb(110, 110, 110);
+    }
+
+    /* next part for footer ***************************************************************************/
+    .parent-text-link-container12 {
+        width: 90%;
+        height: auto;
+    }
+
+    .f-para-container12 {
+        font-size: 13px;
+        color: rgb(110, 110, 115);
+    }
+
+    /* next part of footer ****************************************************************************/
+    .parent-link-container12-footer {
+        height: auto;
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .f-link-footer {
+        text-decoration: none !important;
+        font-size: 13px;
+        color: rgb(66, 66, 69);
+        cursor: none;
+    }
+
+    .f-link-footer:hover {
+        text-decoration: underline !important;
+        cursor: pointer !important;
+    }
+
+    /* next part of footer *****************************************************************************/
+    .parent-text-footer {
+        height: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .f-text-footer {
+        color: rgb(110, 110, 110);
+        font-size: 13px;
+    }
+
+    /* last part of footer *****************************************************************************/
+    .parent-links-footer {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .line-footer {
+        height: 20px;
+        width: 1px;
+        background-color: rgb(100, 100, 100);
+    }
+
+    .links-footer {
+        height: 20px;
+        color: rgb(66, 66, 69);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .link1-footer {
+        padding-left: 0px !important;
+    }
+
+    .link1-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link2-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link3-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link4-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    .link5-footer:hover {
+        text-decoration: underline !important;
+    }
+
+    /* hide ul that open or show in big size start of large size ******************************************************************************/
+    .ul-footer {
+        height: 434px;
+        margin-top: -10px;
+        background-color: orange;
+        justify-content: center;
+    }
+
+    .box1 {
+        margin-right: 40px;
+        height: 246px;
+        background-color: white;
+    }
+
+    .font-footer {
+        font-size: 13px;
+    }
+
+    .first-ul-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 246px;
+        padding-left: 0px;
+    }
+
+    .first-li-footer {
+        width: 100%;
+        height: 22.4px;
+        padding-left: 26px;
+        color: black;
+    }
+
+    .s-link-footer {
+        color: rgb(66, 66, 69);
+    }
+
+    .box2 {
+        height: 87px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .box3 {
+        height: 246px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul2-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 87px;
+        padding-left: 0px;
+    }
+
+    .box4 {
+        height: 67px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul3-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 67px;
+        padding-left: 0px;
+    }
+
+    .box5 {
+        height: 180px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .ul4-footer {
+        list-style-type: none;
+        width: 100%;
+        height: 180px;
+        padding-left: 0px;
+    }
+
+    .box6 {
+        position: absolute;
+        height: 110px;
+        background-color: white;
+        margin-top: 250px;
+        left: 33px;
+    }
+
+    .box7 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        margin-top: 100px;
+        left: 190px;
+    }
+
+    /* hide ul that open or show in big size start of large size ******************************************************************************/
 
 }
