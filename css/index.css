@@ -1,0 +1,317 @@
+body {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent-box {
+    width: 90%;
+    height: 850px;
+    border-radius: 15px;
+    background-image: linear-gradient(#FFFFFF 20%, #E4ECFE);
+}
+
+/* this place is for header or navigation***************************************************/
+.nav {
+    height: 50px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.first-ul {
+    border-radius: 15px 15px 0px 0px;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.first-li {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.li-1 {
+    left: 8%;
+}
+
+.li-2 {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    left: 12%;
+    background-image: linear-gradient(to left, #B34EF6, #F54B74);
+    margin-top: 5px;
+}
+
+.link-2 {
+    line-height: 40px !important;
+    color: rgb(240, 240, 240) !important;
+}
+
+.li-7 {
+    right: 10%;
+}
+
+.first-link {
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: all 400ms ease 0s;
+}
+
+.link-hover:hover {
+    color: rgb(156, 156, 156) !important;
+}
+
+.link-hover::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(156, 156, 156);
+    margin-top: -10px;
+    transform: scaleX(0);
+    transition: all 300ms ease 0s;
+    transform-origin: center;
+}
+
+.link-hover:hover::after {
+    transform: scaleX(1);
+}
+
+.link-7 {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    transition: all 300ms ease 0s;
+}
+
+.link-7:hover {
+    color: black;
+    font-size: 40px;
+}
+
+/* header or navigation created************************************************************/
+/* start to create box2********************************************************************/
+.box2 {
+    width: 900px;
+    height: 667px;
+    background-color: black;
+    right: 5%;
+    background-image: url(../images/1.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+/* box2 has been created*******************************************************************/
+/* start to create box3********************************************************************/
+.box3 {
+    width: 600px;
+    height: 667px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.first-paragraph {
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.second-paragraph {
+    text-align: right;
+    z-index: 1;
+    font-size: 39px;
+    color: rgb(100, 100, 100);
+    font-family: sans-serif;
+}
+
+.first-input {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 30%;
+    border: none;
+    margin-top: 60px;
+    transition: all 400ms ease 0s;
+    background-color: rgb(235, 235, 235);
+}
+
+.first-input:hover {
+    box-shadow: 0px 0px 20px 5px rgb(100, 100, 100);
+}
+
+.search-icon {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, #B34EF6, #F54B74);
+    margin-top: 43px;
+    left: 22%;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.search {
+    display: block;
+    margin-left: 11px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.third-paragraph {
+    text-align: right;
+    z-index: 1;
+    font-size: 39px;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.box-icons {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 0px 0px 15px 0px;
+    justify-content: center;
+}
+
+.all-icons{
+    display: block;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* box3 has been created*******************************************************************/
+
+/* start to create box4********************************************************************/
+.box4 {
+    width: 500px;
+    height: 180px;
+    background-color: white;
+    margin-left: 10%;
+    border-radius: 30px;
+    margin-top: -8%;
+}
+
+.paragraph-box {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.paragraph-5 {
+    color: rgb(156, 156, 156);
+    font-size: 21px;
+    line-height: 50px;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.parent-box5 {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+}
+
+.box6 {
+    border-radius: 0px 0px 0px 30px;
+}
+
+.all-box {
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.number1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.number2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.number3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p3 {
+    text-align: center;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.number4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p4 {
+    text-align: center;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.right-arrow {
+    display: block;
+    font-size: 30px;
+    color: #6049CD;
+    line-height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* box4 has been created*******************************************************************/
